@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_image_bg"
+    android:orientation="vertical"
+    tools:context=".fragments.FragmentHome">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/li1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#FF9933"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Shah Agency"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/li2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+
+
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+
+
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView
+                        android:id="@+id/myImageView"
+                        android:layout_width="fill_parent"
+
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/icon_ashoka_chakra" />
+
+                    <!--     <TextView
+                             android:id="@+id/myImageViewText"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_alignBottom="@+id/myImageView"
+                             android:layout_alignLeft="@+id/myImageView"
+                             android:layout_alignRight="@+id/myImageView"
+                             android:layout_alignTop="@+id/myImageView"
+                             android:layout_margin="1dp"
+                             android:gravity="center"
+                             android:text="NH CORPORATION"
+                             android:textColor="#000000" />-->
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/myImageView"
+                        android:layout_alignLeft="@+id/myImageView"
+                        android:layout_alignRight="@+id/myImageView"
+                        android:layout_alignTop="@+id/myImageView"
+                        android:text="NH Corporation"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/li3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#128807"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Shah Enterprise"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

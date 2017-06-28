@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPrimary">#E31E24</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorAccent">#FF4081</color>
+-->
+    <color name="payu_blue">#368ecd</color>
+    <color name="nhc_text_color">#333333</color>
+   <!-- <color name="colorPrimary">#991936</color>
+    <color name="colorPrimaryDark">#7C142C</color>
+    <color name="colorAccent">#3F51B5</color>
+-->
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+
+    <color name="nh">#D53855</color>
+    <color name="nhdark">#B20505</color>
+
+    <color name="colorPrimaryLight">#51991936</color>
+
+    <color name="cb_blue_button">#368ecd</color>
+
+    <color name="red">#FF0000</color>
+
+    <color name="green">#A5C536</color>
+    <color name="green_dark">#8cc536</color>
+
+    <color name="viewBg">#22004780</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorSecondaryText2">#757575</color>
+    <color name="black_icon">#333333</color>
+    <color name="deviderColor">#BDBDBD</color>
+    <color name="colorBackground">#F3F3F3</color>
+
+    <color name="text_color">#333333</color>
+    <color name="yellow">#ffffcb05</color>
+    <color name="blue">@color/colorPrimaryDark</color>
+    <color name="nhc_price_text_color">#38255A</color>
+
+    <color name="colorSub">#b0afaf</color>
+    <color name="colorTex">#585858</color>
+    <color name="colordevider">#64dad8d8</color>
+    <color name="colorblue">#4c71f5</color>
+
+    <color name="bg_screen1">#f64c73</color>
+
+
+</resources>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <!--UI For Dispaly Description-->
+
+            <TextView
+                android:id="@+id/txtDescr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:drawableRight="@drawable/icon_move_to_next"
+
+
+                android:gravity="center|left"
+
+
+                android:paddingRight="8dp"
+
+                android:text="Description"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="#000000" />>
+
+
+
+            <TextView
+                android:id="@+id/txtDescrInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+
+                android:gravity="center|left"
+
+
+                android:paddingRight="8dp"
+
+                android:text="Description"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <!--Complete Display description UI for display-->
+
+
+            <!--UI For Technical Data-->
+            <LinearLayout
+
+                android:id="@+id/llTechnicalData"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTechnicalData"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="4dp"
+                    android:drawableRight="@drawable/icon_move_to_next"
+
+
+                    android:gravity="center|left"
+
+                    android:paddingRight="8dp"
+
+                    android:text="Technical Data"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#000000" />
+
+                <TextView
+                    android:id="@+id/tvTechnicalDataDescr"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+
+                    android:gravity="center|left"
+
+
+                    android:paddingRight="8dp"
+
+                    android:text="Technical Data"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <WebView
+                    android:id="@+id/wvTechnicalDataDescr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+
+            </LinearLayout>
+            <!--Compelete UI for Technical Data-->
+
+
+            <!--UI For Pictures/Clips Data-->
+            <LinearLayout
+
+                android:id="@+id/llPicturesAndClips"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvPicturesAndClips"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="4dp"
+                    android:drawableRight="@drawable/icon_move_to_next"
+
+
+                    android:gravity="center|left"
+
+                    android:paddingRight="8dp"
+
+                    android:text="Pictures/Clips"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#000000" />
+
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/imgVideosThumbnail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sa123" />
+
+            </LinearLayout>
+            <!--Compelete UI for  Pictures/Clips Data-->
+
+
+
+
+            <!--UI For Brochures Data-->
+            <LinearLayout
+
+                android:id="@+id/llBrochures"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvBrochures"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="4dp"
+                    android:drawableRight="@drawable/icon_move_to_next"
+
+
+                    android:gravity="center|left"
+
+                    android:paddingRight="8dp"
+
+                    android:text="Brochures"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#000000" />
+
+
+
+                <TextView
+                    android:id="@+id/tvBrochuresPDF"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center|left"
+                    android:paddingRight="8dp"
+                    android:drawableLeft="@drawable/icon_pdf"
+                    android:text="Technical Data"
+                    android:textColor="@color/black_icon"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+
+
+
+            </LinearLayout>
+            <!--Compelete UI for  Brochures Data-->
+
+            <!--UI For Wallchart Data-->
+            <LinearLayout
+
+                android:id="@+id/llWallchart"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvWallchart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="4dp"
+                    android:drawableRight="@drawable/icon_move_to_next"
+
+
+                    android:gravity="center|left"
+
+                    android:paddingRight="8dp"
+
+                    android:text="Wallcharts"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#000000" />
+
+
+
+                <TextView
+                    android:id="@+id/tvWallchartPDF"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center|left"
+                    android:paddingRight="8dp"
+                    android:drawableLeft="@drawable/icon_pdf"
+                    android:text="Technical Data"
+                    android:textColor="@color/black_icon"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+
+
+
+            </LinearLayout>
+            <!--Compelete UI for  Wallchart Data-->
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

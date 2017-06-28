@@ -1,0 +1,60 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">NHC App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="app_subtitle">Le Na ho To Yahi Se Lo Na</string>
+    <string name="username_email_hint">Email</string>
+
+
+    <!-- hints -->
+    <string name="email_hint">Email</string>
+    <string name="username_hint">Username</string>
+
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+
+    <string name="forgot">forgot?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">No account yet? Create one</string>
+    <string name="sign_up_button">Submit</string>
+
+    <string name="fb_login_text">Facebook</string>
+    <string name="twitter_login_text">Sign in with Twitter</string>
+    <string name="google_login_text">Google</string>
+    <string name="or">OR</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="str_no_data_found">Coming Soon right now No Products Available in selected Category</string>
+    <string name="pincode_hint">Pincode</string>
+    <string name="title_activity_rate_and_review">RateAndReview</string>
+    <string name="rating_descr">Rating seleted by you will be saved automatically</string>
+    <string name="title_activity_new_dash_board">NewDashBoardActivity</string>
+    <string name="title_activity_sub_categories">SubCategories</string>
+    <string name="title_activity_display_orders">DisplayOrders</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+
+    <string name="str_create_new_account">Create New Account</string>
+    <string name="sign_in_button">SIGN IN</string>
+
+    <string name="search_hint">Search for Products</string>
+
+    <string name="no_network">Not able to connect to App</string>
+    <string name="no_network2">Please Enable Wifi or Mobile data</string>
+    <string name="no_network3">Sorry,no Internet conenctivity detected. Please reconnect and try again.</string>
+    <string name="title_activity_category_acitivity">Category</string>
+    <string name="registration_title">Create new NHC APP Account</string>
+    <string name="useraddress_hint">Address</string>
+    <string name="lastname_hint">Last Name</string>
+    <string name="firstname_hint">First Name</string>
+    <string name="title_activity_sub_category">SubCategory</string>
+
+    <string name="empty_cart_message">Your Cart is empty!</string>
+
+    <string name="youtube_currently_installed">YouTube version installed on this device: <xliff:g id="youtube_version">%1$s</xliff:g>.</string>
+    <string name="youtube_not_installed">YouTube is not installed on this device.</string>
+
+
+</resources>
